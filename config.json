@@ -35,9 +35,9 @@
       "defaultLabelColor": "#000",
       "labelThreshold": 3,
       "defaultLabelHoverColor": "#fff",
-      "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "DefaultLabelSize": 14
+      "labelSize": "proportional",
+      "labelSizeRatio": 3.2
     },
     "graphProperties": {
       "maxEdgeSize": 0.5,
