@@ -1,6 +1,6 @@
 {
   "type": "network",
-  "version": "1.0",
+  "version": "2",
   "data": "data.json",
   "logo": {
     "file": "",
@@ -8,9 +8,9 @@
     "text": ""
   },
   "text": {
-    "more": "",
+    "more": "La recherche sur les odeurs est encore assez peu développée si on compare par exemple avec celle sur la vue, le vocabulaire de l’odorat lui-même est assez pauvre chez le grand public. Il n’existe d’ailleurs pas à ce jour de modèle de connaissances sur les odeurs permettant une représentation graphique valide et universelle. Ce projet est réalisé en collaboration avec l’école nationale vétérinaire, agroalimentaire et de l’alimentation ONIRIS, et plus précisément avec l’équipe Flaveur du laboratoire de biochimie d’Oniris. Cette équipe de recherche est constituée d’une quinzaine de chercheurs dont l’objectif est d’améliorer la connaissance dans le domaine des odeurs. Ce laboratoire cherche un moyen de regrouper de manière fidèle l’ensemble des connaissances dans le domaine des odeurs à la manière d’un knowledge graph. Ce projet transversal est commandité par une chercheuse de l’équipe Flaveur, Angélique Villière, et suivi par un enseignant-chercheur de Polytech Nantes, Fabrice Guillet.",
     "intro": "",
-    "title": ""
+    "title": "Graphe des connaissances sur les odeurs"
   },
   "legend": {
     "edgeLabel": "Apartenance",
@@ -28,16 +28,16 @@
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "curve",
+      "defaultEdgeType": "line",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "labelThreshold": 3,
       "defaultLabelHoverColor": "#fff",
-      "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 14
+      "labelSize": "proportional",
+      "labelSizeRatio": 3.2
     },
     "graphProperties": {
       "maxEdgeSize": 0.5,
@@ -46,8 +46,8 @@
       "maxNodeSize": 7
     },
     "mouseProperties": {
-      "maxRatio": 20,
-      "minRatio": 0.75
+      "maxRatio": 15,
+      "minRatio": 1
     }
   }
 }
